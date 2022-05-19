@@ -1,11 +1,26 @@
-image: busybox
+stages:
+  - build
+  - pages
+
+build:
+  image: node:16
+  stage: build
+  script:
+    - npm install
+    - npm build
+  artifacts:
+    paths:
+      - build/
 
 pages:
- stage: deploy
- script:
-   - echo "Copying public dic..."
- artifacts:
-   paths:
-     - public
- only:
-   - master
+  image: alpine:latest
+  stage: pages
+  variables:
+    GIT_STRATEGY: none        # Do not clone git repo
+  script:
+    - mv build public         
+  artifacts:
+    paths:
+      - public  
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
