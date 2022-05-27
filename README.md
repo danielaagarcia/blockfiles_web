@@ -6,5 +6,5 @@ Web desarrollada en base al CSS para la creación de sitios pertenecientes a Blo
 https://danielaagarcia.github.io/blockfiles_web/boilertemplate.html
 ## Registro:
 https://danielaagarcia.github.io/blockfiles_web/registro.html
-##Login:
+## Login:
 https://danielaagarcia.github.io/blockfiles_web/login.html
