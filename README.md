@@ -1,6 +1,7 @@
 # BlockFiles
 
-Web desarrollada en base al CSS para la creación de sitios pertenecientes a Blockchain Federal Argentina. Está basado en [Bootstrap] (v.3.3.7).
+## Sobre este repo
+Landing desarrollada en marco del proyecto final de la Licenciatura de Gestión de la Información, para la Universidad Nacional de Lomas de Zamora. 
 
 ## Landing incial: 
 https://danielaagarcia.github.io/blockfiles_web/index.html
