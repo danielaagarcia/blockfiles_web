@@ -1,6 +1,6 @@
 # BlockFiles
 
-##Sobre este repo
+## Sobre este repo
 Landing desarrollada en marco del proyecto final de la Licenciatura de Gestión de la Información, para la Universidad Nacional de Lomas de Zamora. 
 
 ## Landing incial: 
