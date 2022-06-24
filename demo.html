@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>| BlockFiles |</title>
+    <meta name="description" content="">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- timeline.css -->
+    <link rel="stylesheet" href="css/timeline.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/min-banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <a href="https://danielaagarcia.github.io/blockfiles_web/index.html">
+                            <img src="img/logo.png" alt="BlockFiles">
+                        </a>
+                    </div>
+                    <div class="col-4 align-self-center text-right">
+                        <a href="http://blockfiles.online:80/#/" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Sellar</a>
+                    </div>
+                    <div class="col-4 align-self-center text-right">
+                        <a href="http://blockfiles.online:8082/#/" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Verificar</a>
+                    </div> 
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- atributos -->
+    
+<!-- init demo sellado -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">Demos</h2>
+        <p>Dado que este es un proyecto desarrollado en marco del proyecto final de la Licenciatura de Gestión de la Información, para la Universidad Nacional de Lomas de Zamora y que el mismo se encontrará en funcionamiento hasta el día 8 de julio del 2022, se dejan como evidencia del funcionamiento, una serie de videos con el flujo de uso de la solución durante el tiempo que continúe productiva.</p>
+        <h3 class="font-weight-bold my-5">Sellado</h2>
+            <p></p>
+        <div class="row">
+            <div class="col-6 align-self-center text-left">
+                <p>Esta una solución que le otorga <b>identidad, integridad y confiabilidad</b> a los contenidos digitales generados por la Universidad Nacional de Lomas de Zamora (UNLZ), obteniendo mediante un cálculo matemático complejo el hash de ese contenido digital para luego ser sellado en el tiempo y enviando a la red de la Blockchain Federal Argentina.</p>
+                <p>Para que esto sea posible se registra en la BFA una billetera digital (wallet) con la cual la UNLZ contendrá una cantidad inicial finita de WEI (valor mínimo del ether) con la cual pagará a la red cada transacción (TX) que genere.</p>
+                <p>El sellado en el tiempo <b>lo podrán utilizar únicamente las áreas definidas por la UNLZ</b>, debido a que se debe administrar de forma eficiente el consumo del WEI, ya que cada transacción se paga y que dicha tarea dejará evidencia en cada contenido digital que fue sellado en el tiempo por la wallet asignada a la UNLZ.</p>
+            </div>
+            <div class="col-6 align-self-center text-left">
+                <h3>¿Cómo sellar un documento?</h3>
+                <p>Para el sellado de un documento se deben seguir los siguientes pasos:</p>
+                <ol>
+                  <li>Contar con un documento a sellar</li>
+                  <li>Ingresar en la web, en el módulo de sellado</li>
+                  <li>Arrastrar o abrir el documento que se desea sellar</li>
+                  <li>Apretar el botón Sellar y aguardar unos segundos</li>
+                  <li>Una vez finalizada la operación, se puede guardar el enlace de verificación para su posterior uso o referencia.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <video width="900" controls autoplay>
+      <source src="videos/sellado.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
+<!-- fin demo sellado -->
+
+<!-- init demo verificacion -->
+    <div class="container my-5 py-2">
+        <h3 class="font-weight-bold my-5">Verificación</h2>
+            <p></p>
+        <div class="row">
+            <div class="col-6 align-self-center text-left">
+                <p>La verificiación...</p>
+            </div>
+            <div class="col-6 align-self-center text-left">
+                <h3>¿Cómo verificar un documento?</h3>
+                <p>Para verificar un documento se deben seguir los siguientes pasos:</p>
+                <ol>
+                  <li>Contar con el documento a verificar</li>
+                  <li>Ingresar en la web, en el módulo de verificación</li>
+                  <li>Arrastrar o abrir el documento que se desea verificar</li>
+                  <li>Apretar el botón Verificar y aguardar unos segundos</li>
+                  <li>Una vez finalizada la operación, pueden ocurrir 2 casos:
+                    <ul>
+                        <li>En caso de verificar la documentación, arrojará información sobre la Wallet que selló el documento (en este caso la UNLZ), el bloque en el cuál fue sellado y la fecha.</li>
+                        <li>En caso de no poder verificar la documentación, arrojará información sobre la Wallet que selló el documento (en este caso la UNLZ), el bloque en el cuál fue sellado y la fecha.</li>
+                    </ul>
+                  </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <video width="900" controls autoplay>
+        <source src="videos/verif-01.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <br>
+    <a>Verificación exitosa</a>
+    <br>
+</div>
+<div class="container">
+    <video width="900" controls autoplay>
+        <source src="videos/verif-02.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <br>
+    <p>Verificación no exitosa</p>
+    <br>
+</div>
+<!-- fin demo verificacion -->
+
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Escribinos</h2>
+                    <p class="my-4">
+                        Nuestros especialistas contestarán 
+                        <br> tus inquietudes lo más pronto posible.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : contacto@blockfiles.online</li>
+                        <li>Teléfono : 54+ 9 11 4444 5555</li>
+                        <li>Dirección : Don Bosco 3729, CABA</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                    	<div class="row">
+	                        <div class="form-group col-md-6">
+	                            <label for="name">Nombre</label>
+	                            <input type="name" class="form-control" id="name">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="Email">Mail</label>
+	                            <input type="email" class="form-control" id="Email">
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="message">Contános</label>
+	                        <textarea class="form-control" id="message" rows="3"></textarea>
+	                    </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Enviar!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- AGREGAR LEGALES -->
+	<div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    BlockFiles.
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="https://danielaagarcia.github.io/blockfiles_web/" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://danielaagarcia.github.io/blockfiles_web/" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://danielaagarcia.github.io/blockfiles_web/" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://danielaagarcia.github.io/blockfiles_web/" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
+
+</html>
