@@ -5,7 +5,3 @@ Landing desarrollada en marco del proyecto final de la Licenciatura de Gestión 
 
 ## Landing incial: 
 https://danielaagarcia.github.io/blockfiles_web/index.html
-## Registro:
-https://danielaagarcia.github.io/blockfiles_web/registro.html
-## Login:
-https://danielaagarcia.github.io/blockfiles_web/login.html
